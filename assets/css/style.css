@@ -1,0 +1,87 @@
+
+#game-title {
+    /* line-height: 0.95em;
+    letter-spacing: -0.125em; */
+    font-family: 'Faster One', cursive;
+    background-color: white;
+}
+
+#instruction {
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Cute Font', cursive;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+#scoreBox {
+    font-weight: 200;
+    font-size: 40px;
+    font-family: 'Cute Font', cursive;
+    color: red;
+}
+
+html {
+    font-size: 18px;
+    background-image: url("../images/crystalBKG.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: "Stylish", sans-serif; */
+    color: 3d405b;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: 'Cute Font', cursive;
+}
+h1 {
+    font-size: 2.8em;
+}
+.fnStart {
+    /* color: #e07a5f; */
+    font-size: 1.5em;
+}
+.boxSet {
+    padding: 1.1em;
+    /* background-color: rgba(0, 255, 255, 0.5); */
+    text-align: center;
+    margin: auto;
+}
+.boxSetTwo{
+    background-color: rgba(0, 255, 13, 0.5);
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.boxSetThree{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+}
+.midBox {
+    display: flex;
+    flex-direction: column;
+}
+.guessBox {
+    padding: 20px;
+}
+/* .Go {
+    padding: 10px;
+} */
+p {
+    font-weight: 600;
+    font-size: 1.5em;
+    /* line-height: 20px; */
+}
+
+#crystal{
+    border-image: 2px;
+    border-color: black;
+    display:inline;
+}
+

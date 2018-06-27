@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Collector</title>
+    <!-- CSS Reference -->
+    <link rel='stylesheet' type='text/css' href="./assets/css/reset.css" />
+    <link rel='stylesheet' type='text/css' href="./assets/css/style.css" />   
+    <!-- Font Awesome and Google Font Reference-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet"> 
+      <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <div id="game-title" class="boxSet topBox">
+            <h1>Crystals Collector!</h1>
+        </div>
+        <p id="instruction" class="boxSet topBox">
+            You will be given a random number at the start of the game.
+            <br>
+            <br>
+            Each of the 4 crystals below have an assigned value. The value of the crystals
+            is hidden until they are clicked on.  
+            <br>
+            <br>
+            Click on the crystals to bring your total score up to match the random number.
+            <br>
+            You lose if your score total goes above the random. 
+            <br>
+            The value of the crystals
+            reset randomly after each round.  </p>
+    </header>
+
+    <!-- Random Number -->
+    <div class="container">
+        <section id="randNumBox" class="boxSet midBox">
+            Match this number: 
+            <h1 id="randNum">0</h1>
+        </section>
+        <section class="boxSetTwo bottomBox stats">
+            <p>  -- Wins:
+            <span id="winsCount"> 0 </span>  Losses:
+            <span id="lossCount"> 0 -- </span> </p>
+        </section>
+    </div>
+
+    <!-- Crystals -->
+    <div class ="container">
+        <section id="crystal" class="boxSet midBox">
+            <img src="./assets/images/blCrystal.jpg" alt='blue' id='blue'>
+            <img src="./assets/images/grCrystal.jpg" alt='green' id='green'>
+            <img src="./assets/images/orCrystal.jpg" alt='orange' id='orange'>
+            <img src="./assets/images/piCrystal.jpg" alt='pink' id='pink'>
+        </section>
+    </div>
+
+    <!-- Point Total -->
+    <div class="container">
+        Your Current Total: 
+        <section id="scoreBox" class="boxSetThree topBox">
+            0
+        </section>
+    </div>
+
+
+    <script src='./assets/javascript/game.js'>
+        
+    </script>
+
+  
+
+</body>
+
+</html>
