@@ -7,10 +7,10 @@
 }
 
 #instruction {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     font-family: 'Cute Font', cursive;
-    color:black;
+    color:blue;
     background-color: rgba(255, 255, 255, 0.664);
 }
 
@@ -20,6 +20,8 @@
     font-family: 'Cute Font', cursive;
     color: red;
 }
+
+
 
 html {
     font-size: 18px;
@@ -52,10 +54,12 @@ h1 {
     margin: auto;
 }
 .boxSetTwo{
-    background-color: rgba(0, 255, 13, 0.5);
+    /* background-color: rgba(0, 255, 13, 0.5); */
+    background-color: black;
     text-align: center;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    color: white
 }
 .boxSetThree{
     background-color: white;
